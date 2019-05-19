@@ -23,6 +23,7 @@ Things you may want to cover:
 
 
 Coisas que eu gostaria de ter acrescentado a api:
+
 	1-Autenticação para evitar que alienigenas aprendam REST e invadam a api 
 
 
