@@ -1,12 +1,12 @@
 # README
 
-Para executar esse projeto precisa garantir ter instalado Ruby e Rails nas seguinter versões:
+Para executar esse projeto é preciso garantir ter instalado Ruby e Rails nas seguinter versões:
 
 Ruby version: 2.6
 
 Rails version: 5.2.3
 
-Para iniciar o servidor e poder testar a api basta executar os seguintes comandos via terminal linux na pasta onde o projeto foi clonado:
+Para iniciar o servidor e poder testar a API basta executar os seguintes comandos via terminal linux na pasta onde o projeto foi clonado:
 	
 	bundle install
 	rails db:migrate
