@@ -15,11 +15,6 @@ Para iniciar o servidor e poder testar a api basta executar os seguintes comando
 	#agora o servidor está ativo e os endpoints citados abaixo estão funcionando normalmente
 
 
-Coisas que eu gostaria de ter acrescentado a api:
-
-	1-Autenticação para evitar que alienigenas aprendam REST e invadam a api 
-
-
 Endpoints:
 	
 	POST localhost:3000/sobreviventes -> adiciona um sobrevivente no banco de dados
@@ -40,3 +35,9 @@ Endpoints:
 	GET localhost:3000/nonabducteds/ -> retorna a percentagem de sobreviventes não abduzidos
 
 	GET localhost:3000/abducteds/    -> retorna a percentagem de sobreviventes abduzidos
+	
+
+Coisas que eu gostaria de ter acrescentado a api:
+
+	1-Autenticação para evitar que alienigenas aprendam REST e invadam a api 
+
