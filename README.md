@@ -17,24 +17,24 @@ Para iniciar o servidor e poder testar a api basta executar os seguintes comando
 
 Endpoints:
 	
-	POST localhost:3000/sobreviventes -> adiciona um sobrevivente no banco de dados
+	POST localhost:3000/sobreviventes          #Adiciona um sobrevivente no banco de dados
 		nome:string
 		idade:integer
 		genero:string
 		last_latitude:float
 		last_longitude:float
 
-	PUT localhost:3000/sobreviventes/:id ->atualiza a localização de um sobrevivente
+	PUT localhost:3000/sobreviventes/:id        #Atualiza a localização de um sobrevivente
 		last_latitude:float
 		last_longitude:float
 
-	GET localhost:3000/sobreviventes/ ->retorna uma lista com todos os sobreviventes em ordem alfabética
+	GET localhost:3000/sobreviventes/           #Retorna uma lista com todos os sobreviventes em ordem alfabética
 
-	POST localhost:3000/flag_as_abducted/:your_id/:abducted_id -> O sobrevivente de id :your_id marca o sobrevivente com o id = abducted_id como abduzido
+	POST localhost:3000/flag_as_abducted/:your_id/:abducted_id  #O sobrevivente de id :your_id marca o sobrevivente com o id :abducted_id como abduzido
 
-	GET localhost:3000/nonabducteds/ -> retorna a percentagem de sobreviventes não abduzidos
+	GET localhost:3000/nonabducteds/             #Retorna a percentagem de sobreviventes não abduzidos
 
-	GET localhost:3000/abducteds/    -> retorna a percentagem de sobreviventes abduzidos
+	GET localhost:3000/abducteds/                #Retorna a percentagem de sobreviventes abduzidos
 	
 
 Coisas que eu gostaria de ter acrescentado a api:
