@@ -20,15 +20,15 @@ class AbductedsController < ApplicationController
 		@abducted = Sobrevivente.find(params[:survivor_id])
 
 		
-		if @abducted.first_abducted_flag == -1 then
+		if @abducted.first_abducted_flag == nil then
 			@abducted.first_abducted_flag = @flagging.id
 			@abducted.save
 		else
-			if @abducted.second_abducted_flag == -1 && @abducted.first_abducted_flag != @flagging.id then
+			if @abducted.second_abducted_flag == nil && @abducted.first_abducted_flag != @flagging.id then
 				@abducted.second_abducted_flag = @flagging.id
 				@abducted.save
 			else
-				if @abducted.third_abducted_flag == -1  && @abducted.first_abducted_flag != @flagging.id && @abducted.second_abducted_flag != @flagging.id then
+				if @abducted.third_abducted_flag == nil  && @abducted.first_abducted_flag != @flagging.id && @abducted.second_abducted_flag != @flagging.id then
 					@abducted.third_abducted_flag = @flagging.id
 					@abducted.is_abducted =  true
 					@abducted.save
