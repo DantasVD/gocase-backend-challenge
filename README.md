@@ -1,25 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para executar esse projeto precisa garantir ter instalado Ruby e Rails nas seguinter versões:
 
-Things you may want to cover:
+Ruby version: 2.6
 
-* Ruby version
+Rails version: 5.2.3
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+Para iniciar o servidor e poder testar a api basta executar os seguintes comandos via terminal linux na pasta onde o projeto foi clonado:
+	
+	bundle install
+	rails db:migrate
+	rails server
+	
+	#agora o servidor está ativo e os endpoints citados abaixo estão funcionando normalmente
 
 
 Coisas que eu gostaria de ter acrescentado a api:
@@ -27,7 +20,7 @@ Coisas que eu gostaria de ter acrescentado a api:
 	1-Autenticação para evitar que alienigenas aprendam REST e invadam a api 
 
 
-Rotas:
+Endpoints:
 	
 	POST localhost:3000/sobreviventes -> adiciona um sobrevivente no banco de dados
 		nome:string
