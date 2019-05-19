@@ -27,6 +27,7 @@ Coisas que eu gostaria de ter acrescentado a api:
 
 
 Rotas:
+	
 	POST localhost:3000/sobreviventes -> adiciona um sobrevivente no banco de dados
 		nome:string
 		idade:integer
